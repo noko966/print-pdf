@@ -1,0 +1,84 @@
+
+html {
+    width: 1920px;
+}
+
+#menuContainer, .main-col {
+    overflow: visible !important;
+}
+
+* {
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 16pt !important;
+    line-height: 18pt !important;
+    letter-spacing: 0.01px;
+}
+#main, #content {
+    height: auto !important;
+    width: 100%;
+/*    background-color: var(--bodyBg) !important;
+    color: var(--bodyTxt) !important;
+*/
+
+}
+
+.toto_rules .FAQ_spec_accordion .accordionTitle:before{
+    content: none !important;
+}
+.toto_rules .FAQ_spec_accordion .accordionTitle:before,
+header,
+#menuContainer,
+.reg_page_top {
+    display: none !important;
+}
+.toto_rules .accordionItemCollapsed {
+    max-height: none !important;
+    animation: none !important;
+    padding: 20px;
+}
+
+.main-col {
+    width: 100% !important;
+    margin: 0;
+}
+
+.toto_rules .container {
+    max-width: none !important;
+    padding: 0 !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+.toto_rules .accordionTitle {
+    background-color: #f14100 !important;
+    color: #000 !important;
+    padding: 0 10px !important;
+    display: block !important;
+    overflow: visible !important;
+    vertical-align: baseline !important;
+}
+
+/*.toto_rules .accordionTitle {
+    display: block !important;
+    border-bottom: none !important;
+    height: unset !important;
+    padding: 0 !important;
+}*/
+
+
+.toto_rules .FAQ_spec_accordion .accordion{
+    border-radius: 0 !important;
+}
+
+.rules_pic, img {
+    margin-bottom: 30px !important;
+}
+
+.inner-content{
+    padding: 50px;
+}
+
+p, p > a {
+    all: unset !important;
+}
